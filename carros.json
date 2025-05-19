@@ -1,0 +1,94 @@
+{
+  "uuid": "7845dde2-943a-449b-ac1e-98af69c1b6ba",
+  "lastMigration": 33,
+  "name": "Carros",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 12347,
+  "hostname": "localhost",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "221aeec2-d8b1-4732-b0f1-85a15371b664",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "carros",
+      "responses": [
+        {
+          "uuid": "197b7491-b27b-4d9d-91b7-33c421036aab",
+          "body": "{\r\n  \"brands\": [\r\n    {\r\n      \"nombre\": \"Ferrari\",\r\n      \"origen\": \"Italia\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Ferrari 488 GTB\",\r\n          \"año\": 2015,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/R.0afc3bbc709ad21613885e097d4236e8?rik=2ycTP7YSlZuLDg&pid=ImgRaw&r=0\"\r\n        },\r\n        {\r\n          \"nombre\": \"Ferrari F8 Tributo\",\r\n          \"año\": 2019,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.VRTPOGAWt90OskvRwIZKhQHaEK?w=277&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP._fc3JmgZUAeM-HvvfazRDQHaJ4?w=124&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"Mercedes-Benz\",\r\n      \"origen\": \"Alemania\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Mercedes-Benz S-Class\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"Sedán de lujo\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/R.171728140d50a9abcde461854437a7ef?rik=0mdRfV2XGVT6Ww&pid=ImgRaw&r=0\"\r\n        },\r\n        {\r\n          \"nombre\": \"Mercedes-AMG GT\",\r\n          \"año\": 2020,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.8dc3bx_LCvMUuo9qxc8bHQHaE7?w=279&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.yHHuoM478c5hyJLD9tr6NwHaGB?w=214&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"Toyota\",\r\n      \"origen\": \"Japón\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Toyota Corolla\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"Sedán\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.sAELQnYrxpt3JD5Z4MWR0wHaFP?w=252&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        },\r\n        {\r\n          \"nombre\": \"Toyota Prius\",\r\n          \"año\": 2020,\r\n          \"tipo\": \"Híbrido\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.TJT2PegZ-OJF6pDP4Sh6lgHaE2?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.tqbM7CUqfa_AzNFT72bDLAHaFQ?w=241&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"BMW\",\r\n      \"origen\": \"Alemania\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"BMW 3 Series\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"Sedán deportivo\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.x-QELsuTuEYHvzxzI70DJwHaE8?w=285&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        },\r\n        {\r\n          \"nombre\": \"BMW X5\",\r\n          \"año\": 2022,\r\n          \"tipo\": \"SUV\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.2ef8XtcbMJDi9yGp_hrbhgHaEo?w=294&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.J2qXDNNag8xxvu51y4nzggHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"Audi\",\r\n      \"origen\": \"Alemania\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Audi A4\",\r\n          \"año\": 2020,\r\n          \"tipo\": \"Sedán\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.VrD7L05r3fh9rHvFIxa-vwHaEK?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        },\r\n        {\r\n          \"nombre\": \"Audi Q7\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"SUV\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.oqaIjfmFhY3VePFbSldyvAHaE7?w=299&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.WjUdnMRzelbbnNCNVzA74gHaEK?w=268&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"Porsche\",\r\n      \"origen\": \"Alemania\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Porsche 911\",\r\n          \"año\": 2022,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.YYcil-4PFTmdV94TJhULYAHaEo?rs=1&pid=ImgDetMain\"\r\n        },\r\n        {\r\n          \"nombre\": \"Porsche Cayenne\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"SUV\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP._7FrN71wyEfYrNFcgtqa-QHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/R.193351d15afb48b1e5ddae130f81856a?rik=5m40qudtYLNXNw&pid=ImgRaw&r=0\"\r\n    },\r\n    {\r\n      \"nombre\": \"Lamborghini\",\r\n      \"origen\": \"Italia\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Lamborghini Huracán\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.MFrdkKvmN2bP5QOWiApEMQHaE6?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        },\r\n        {\r\n          \"nombre\": \"Lamborghini Urus\",\r\n          \"año\": 2022,\r\n          \"tipo\": \"SUV\",\r\n          \"imagen_url\": \"https://th.bing.com/th/id/OIP.sFh8Kv-8XVNIu9B2YUOYpAHaFV?w=223&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.NukffXbCLWzQE-CZo_rvHwHaIV?w=154&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    },\r\n    {\r\n      \"nombre\": \"Chevrolet\",\r\n      \"origen\": \"Estados Unidos\",\r\n      \"modelos\": [\r\n        {\r\n          \"nombre\": \"Chevrolet Camaro\",\r\n          \"año\": 2021,\r\n          \"tipo\": \"Deportiva\",\r\n          \"imagen_url\": \"https://example.com/images/chevrolet_camaro.jpg\"\r\n        },\r\n        {\r\n          \"nombre\": \"Chevrolet Silverado\",\r\n          \"año\": 2022,\r\n          \"tipo\": \"Camioneta\",\r\n          \"imagen_url\": \"https://example.com/images/chevrolet_silverado.jpg\"\r\n        }\r\n      ],\r\n      \"logo_url\": \"https://th.bing.com/th/id/OIP.1JwcaHXbVDFdR0nGqwGioQHaDy?w=379&h=178&c=7&r=0&o=5&dpr=1.3&pid=1.7\"\r\n    }\r\n  ]\r\n}\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "221aeec2-d8b1-4732-b0f1-85a15371b664"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
