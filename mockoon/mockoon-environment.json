@@ -1,94 +1,61 @@
 {
-  "uuid": "06eda0eb-b9b2-4e2c-8cdc-26706a8bd499",
-  "lastMigration": 33,
-  "name": "Mockoon environment",
-  "endpointPrefix": "",
-  "latency": 0,
-  "port": 12348,
-  "hostname": "",
-  "folders": [],
-  "routes": [
+  "brands": [
     {
-      "uuid": "d28d0e2a-c7fa-4783-8233-3f4795b42cb5",
-      "type": "http",
-      "documentation": "",
-      "method": "get",
-      "endpoint": "",
-      "responses": [
+      "nombre": "Ferrari",
+      "origen": "Italia",
+      "modelos": [
         {
-          "uuid": "a1ea1273-e09a-47b8-90db-ddecccc892eb",
-          "body": "{}",
-          "latency": 0,
-          "statusCode": 200,
-          "label": "",
-          "headers": [],
-          "bodyType": "INLINE",
-          "filePath": "",
-          "databucketID": "",
-          "sendFileAsBody": false,
-          "rules": [],
-          "rulesOperator": "OR",
-          "disableTemplating": false,
-          "fallbackTo404": false,
-          "default": true,
-          "crudKey": "id",
-          "callbacks": []
+          "nombre": "Ferrari 488 GTB",
+          "año": 2015,
+          "tipo": "Deportiva",
+          "imagen_url": "https://th.bing.com/th/id/R.0afc3bbc709ad21613885e097d4236e8?rik=2ycTP7YSlZuLDg&pid=ImgRaw&r=0"
+        },
+        {
+          "nombre": "Ferrari F8 Tributo",
+          "año": 2019,
+          "tipo": "Deportiva",
+          "imagen_url": "https://th.bing.com/th/id/OIP.VRTPOGAWt90OskvRwIZKhQHaEK?w=277&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         }
       ],
-      "responseMode": null,
-      "streamingMode": null,
-      "streamingInterval": 0
-    }
-  ],
-  "rootChildren": [
-    {
-      "type": "route",
-      "uuid": "d28d0e2a-c7fa-4783-8233-3f4795b42cb5"
-    }
-  ],
-  "proxyMode": false,
-  "proxyHost": "",
-  "proxyRemovePrefix": false,
-  "tlsOptions": {
-    "enabled": false,
-    "type": "CERT",
-    "pfxPath": "",
-    "certPath": "",
-    "keyPath": "",
-    "caPath": "",
-    "passphrase": ""
-  },
-  "cors": true,
-  "headers": [
-    {
-      "key": "Content-Type",
-      "value": "application/json"
+      "logo_url": "https://th.bing.com/th/id/OIP._fc3JmgZUAeM-HvvfazRDQHaJ4?w=124&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     },
     {
-      "key": "Access-Control-Allow-Origin",
-      "value": "*"
+      "nombre": "Mercedes-Benz",
+      "origen": "Alemania",
+      "modelos": [
+        {
+          "nombre": "Mercedes-Benz S-Class",
+          "año": 2021,
+          "tipo": "Sedán de lujo",
+          "imagen_url": "https://th.bing.com/th/id/R.171728140d50a9abcde461854437a7ef?rik=0mdRfV2XGVT6Ww&pid=ImgRaw&r=0"
+        },
+        {
+          "nombre": "Mercedes-AMG GT",
+          "año": 2020,
+          "tipo": "Deportiva",
+          "imagen_url": "https://th.bing.com/th/id/OIP.8dc3bx_LCvMUuo9qxc8bHQHaE7?w=279&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        }
+      ],
+      "logo_url": "https://th.bing.com/th/id/OIP.yHHuoM478c5hyJLD9tr6NwHaGB?w=214&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     },
     {
-      "key": "Access-Control-Allow-Methods",
-      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
-    },
-    {
-      "key": "Access-Control-Allow-Headers",
-      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+      "nombre": "Toyota",
+      "origen": "Japón",
+      "modelos": [
+        {
+          "nombre": "Toyota Corolla",
+          "año": 2021,
+          "tipo": "Sedán",
+          "imagen_url": "https://th.bing.com/th/id/OIP.sAELQnYrxpt3JD5Z4MWR0wHaFP?w=252&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+          "nombre": "Toyota Prius",
+          "año": 2020,
+          "tipo": "Híbrido",
+          "imagen_url": "https://th.bing.com/th/id/OIP.TJT2PegZ-OJF6pDP4Sh6lgHaE2?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        }
+      ],
+      "logo_url": "https://th.bing.com/th/id/OIP.tqbM7CUqfa_AzNFT72bDLAHaFQ?w=241&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
     }
-  ],
-  "proxyReqHeaders": [
-    {
-      "key": "",
-      "value": ""
-    }
-  ],
-  "proxyResHeaders": [
-    {
-      "key": "",
-      "value": ""
-    }
-  ],
-  "data": [],
-  "callbacks": []
+  ]
 }
